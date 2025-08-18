@@ -1,8 +1,8 @@
 package com.github.miguelbarroso05.boardgame;
 
 public class Position {
-    public int row;
-    public int column;
+    private int row;
+    private int column;
 
     public Position(int row, int column) {
         this.row = row;
