@@ -39,6 +39,7 @@ public class UI {
     public static void printMatch(ChessMatch chessMatch, List<ChessPiece> captured) {
         printBoard(chessMatch.getPieces());
         printCapturedPieces(captured);
+        System.out.println();
         System.out.println("Turn: " + chessMatch.getTurn());
         if (!chessMatch.isCheckMate()) {
             System.out.println("Waiting Player: " + chessMatch.getCurrentPlayer());
