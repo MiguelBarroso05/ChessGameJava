@@ -1,6 +1,8 @@
 package com.github.miguelbarroso05.chess;
 
-public class ChessException extends RuntimeException {
+import com.github.miguelbarroso05.boardgame.BoardException;
+
+public class ChessException extends BoardException {
     public ChessException(String msg) {
         super(msg);
     }
